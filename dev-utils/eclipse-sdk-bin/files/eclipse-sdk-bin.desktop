@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Eclipse
+Icon=eclipse
+Exec=/usr/bin/eclipse %F
+Comment=Eclipse Integrated Development Environment
+Categories=Development;IDE;Java
+Terminal=false
