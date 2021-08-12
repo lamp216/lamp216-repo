@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>lineumartins001@gmail.com</email>
+		<name>Lineu Martins</name>
+	</maintainer>
+	<longdescription>
+		Simple generic tabbed frontend to xembed-aware applications, 
+		originally designed for surf but also usable with many other 
+		applications, i.e. st, uzbl, urxvt and xterm
+	</longdescription>
+</pkgmetadata>
