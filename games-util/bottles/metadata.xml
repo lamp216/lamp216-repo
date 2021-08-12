@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>lineumartins001@gmail.com</email>
+		<name>Lineu Martins</name>
+	</maintainer>
+	<longdescription>
+		Easily manage wine prefixes in a new way. Run Windows software and games on Linux.
+
+		Run Windows in a Bottle
+	</longdescription>
+	<upstream>
+		<changelog>https://usebottles.com/blog/</changelog>
+		<bugs-to>https://github.com/bottlesdevs/Bottles/issues</bugs-to>
+	</upstream>
+</pkgmetadata>
