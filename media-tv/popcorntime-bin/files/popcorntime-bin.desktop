@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Popcorn Time
+Icon=popcorntime
+Exec=/usr/bin/popcorntime %F
+Comment=Watch Movies and TV Shows instantly!
+Categories=Player;AudioVideo;Video;Network;
+Terminal=false
