@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>lineumartins001@gmail.com</email>
+		<name>Lineu Martins</name>
+	</maintainer>
+	<longdescription>
+		Modular status bar for dwm written in c.
+	</longdescription>
+	<use>
+		<flag name="statuscmd">Enable statuscmd patching for clickable status bar.</flag>
+	</use>
+</pkgmetadata>
