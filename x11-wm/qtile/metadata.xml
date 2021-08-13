@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>lineumartins001@gmail.com</email>
+		<name>Lineu Martins</name>
+	</maintainer>
+	<longdescription>
+		A pure-Python tiling window manager.
+
+		Features
+		========
+
+			* Simple, small and extensible. It's easy to write your own layouts, widgets and commands.
+			* Configured in Python.
+			* Command shell that allow all aspects of Qtile to be managed and inspected.
+			* Complete remote scriptability - write scripts to set up workspaces, manipulate windows, update status bar widgets and more.
+			* Qtile's remote scriptability makes it one fo the most thoroughly unit-tested window managers around.
+	</longdescription>
+	<upstream>
+		<changelog>https://raw.githubusercontent.com/qtile/qtile/master/CHANGELOG</changelog>
+		<bugs-to>https://github.com/qtile/qtile/issues</bugs-to>
+	</upstream>
+	<use>
+		<flag name="dbus">Enable sending notifications with dbus.</flag>
+		<flag name="wayland">Enable wayland as backend(requires additonal dependencies).</flag>
+		<flag name="X">Enable X as backend(requires additonal dependencies).</flag>
+		<flag name="widget-wlan">Add support for wlan widget (requires additonal dependencies).</flag>
+		<flag name="widget-calendar">Add support for KhalCalendar widget (requires additonal dependencies).</flag>
+		<flag name="widget-wallpaper">Add support for wallpaper widget (requires additonal dependencies).</flag>
+		<flag name="widget-sensors">Add support for sensors widget (requires additonal dependencies).</flag>
+		<flag name="widget-volume">Add support for volume widget (requires additonal dependencies).</flag>
+		<flag name="widget-pulse-volume">Add support for pulse-volume widget (requires additonal dependencies).</flag>
+		<flag name="widget-nvidia-sensors">Add support for nvidia-sensors widget (requires additonal dependencies).</flag>
+		<flag name="widget-net">Add support for net widget (requires additonal dependencies).</flag>
+		<flag name="widget-check-updates">Add support for check-updates widget (requires additonal dependencies).</flag>
+		<flag name="widget-mpris">Add support for mpri widget (requires additonal dependencies).</flag>
+		<flag name="widget-mpd">Add support for mpd widget (requires additonal dependencies).</flag>
+		<flag name="widget-moc">Add support for moc widget (requires additonal dependencies).</flag>
+		<flag name="widget-memory">Add support for memory widget (requires additonal dependencies).</flag>
+		<flag name="widget-launchbar">Add support for launchbar widget (requires additonal dependencies).</flag>
+		<flag name="widget-keyboardlayout">Add support for keyboardlayout widget (requires additonal dependencies).</flag>
+		<flag name="widget-keyboardkbdd">Add support for keyboardkbdd widget (requires additonal dependencies).</flag>
+		<flag name="widget-imap">Add support for imap widget (requires additonal dependencies).</flag>
+		<flag name="widget-idlerpg">Add support for idlerpg widget (requires additonal dependencies).</flag>
+		<flag name="widget-cpu">Add support for cpu widget (requires additonal dependencies).</flag>
+		<flag name="widget-cmus">Add support for cmus widget (requires additonal dependencies).</flag>
+		<flag name="widget-bluetooth">Add support for bluetooth widget (requires additonal dependencies).</flag>
+	</use>
+</pkgmetadata>
