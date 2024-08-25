@@ -189,13 +189,15 @@ LICENSE+="
 "
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="lefthk sys-log file-log journald-log"
+IUSE="lefthk sys-log file-log journald-log theme config"
 
 DEPEND="
 	x11-base/xorg-server
 	x11-apps/xrandr
 	x11-libs/libX11
 	x11-libs/libXinerama
+	theme? ( x11-misc/leftwm-theme )
+	config? ( x11-misc/leftwm-config )
 "
 RDEPEND="${DEPEND}"
 
