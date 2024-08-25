@@ -1,0 +1,9 @@
+DEFINED_PHASES=-
+DESCRIPTION=way-displays: Auto Manage Your Wayland Displays
+EAPI=8
+HOMEPAGE=https://github.com/alex-courtis/way-displays
+KEYWORDS=~amd64
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/alex-courtis/way-displays/archive/refs/tags/1.11.0.tar.gz
+_md5_=86d027bb96e881df2722a901e7c00cdb
